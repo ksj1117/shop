@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <>
             <header className={"l__header"}>
-                로그인 마이페이지
+                로그인 대충 헤더
             </header>
             <section className={"nav-wrap"}>
                 <ul className={"nav-menu"}>
