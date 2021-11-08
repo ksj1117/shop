@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.l__container {
+  width: 100%;
+  height: calc(100% - 180px);
+  margin: 100px 0 80px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.l__main {
+  width: 2000px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
