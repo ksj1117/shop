@@ -9,7 +9,7 @@ const Header = () => {
             </header>
             <section className={"nav-wrap"}>
                 <ul className={"nav-menu"}>
-                    <li>OUTER</li>
+                    <li>OUfdfdTER</li>
                     <li>TOP</li>
                     <li>BOTTOM</li>
                     <li>BLOUSE</li>
