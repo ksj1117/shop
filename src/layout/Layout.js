@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import '../assets/scss/layout/layout.scss';
+import '../../src/assets/scss/layout/layout.scss';
 
 
-const Layout = ({ children }) => {
+export default function Layout({children}) {
     return (
         <>
             <Header />
@@ -14,6 +14,4 @@ const Layout = ({ children }) => {
             <Footer />
         </>
     )
-};
-
-export default Layout;
+}

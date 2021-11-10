@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/scss/layout/header.scss";
 
-const Header = () => {
+export default function Header () {
     return (
         <>
             <header className={"l__header"}>
@@ -17,6 +17,4 @@ const Header = () => {
             </section>
         </>
     )
-};
-
-export default Header;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/scss/layout/footer.scss";
 
-const Footer = () => {
+export default function Footer () {
     return (
         <>
             <div className={"l__footer"}>
@@ -11,6 +11,4 @@ const Footer = () => {
             </div>
         </>
     )
-};
-
-export default Footer;
+}
