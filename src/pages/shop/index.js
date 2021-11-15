@@ -10,12 +10,10 @@ const Shop = (props) => {
     const {match} = props;
 
     return (
-        <Layout>
             <Switch>
                 <Route exact path={`${match.url}/product`} render={(props) => <ProductList {...props}/> }/>
                 <Route exact path={`${match.url}/detail`} render={(props) => <Detail {...props}/> }/>
             </Switch>
-        </Layout>
     )
 };
 

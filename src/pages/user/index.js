@@ -1,5 +1,5 @@
 import React from "react";
-import {Route, Switch} from "react-router-dom";
+import {Redirect,Route, Switch} from "react-router-dom";
 import Login from "./Login";
 import Layout from "../../layout/Layout";
 
@@ -11,6 +11,7 @@ const User = (props) => {
         <Layout>
             <Switch>
                 <Route exact path={`${match.url}/login`} render={(props) => <Login {...props}/> }/>
+
             </Switch>
         </Layout>
     )
