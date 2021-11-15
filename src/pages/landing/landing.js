@@ -7,7 +7,12 @@ const Landing = () => {
 
     return(
         <div className={"p__landing"}>
-                메인 페이지
+            <div className={"top-section"}>
+
+            </div>
+            <div className={"middle-section"}>
+
+            </div>
         </div>
     );
 };
