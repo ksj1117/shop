@@ -1,8 +1,10 @@
 import React, {useEffect, useState} from "react";
 import "../assets/scss/layout/header.scss";
-import {Link} from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
 
 export default function Header () {
+
+    const history = useHistory();
 
     const [pageYOffset , setPageYOffset] = useState(0);
 
@@ -22,7 +24,7 @@ export default function Header () {
                 <div className={"row"}>
                     <Link to = {"/"}><h1 className={"logo"}/></Link>
                     <ul className={"nav"}>
-                        <li className={"nav-item selected"}>Shop</li>
+                        <li className={"nav-item selected"} onClick={() => history.push("/shop/product")}>Shop</li>
                         <li className={"nav-item"}>Info</li>
                         <li className={"nav-item"}>Q&A</li>
                         <li className={"nav-item"}>Login</li>

@@ -10,7 +10,6 @@ $innerWidth : calc( 100% - 40px);
   width: 100%;
   overflow-x: hidden;
 
-
   //top-section
   .top-section {
     width: 100%;
@@ -25,6 +24,25 @@ $innerWidth : calc( 100% - 40px);
       repeat: no-repeat;
       position: center;
     };
+  }
+
+  .middle-section {
+    .shop-title {
+      text-align: center;
+      color: #222;
+      font-weight: 400;
+      letter-spacing: 0em;
+      line-height: 1.5em;
+      padding:16px 0;
+    }
+    .shop-desc{
+      text-align: center;
+      padding: 16px 0;
+      color: #424242;
+      font-weight: 300;
+      letter-spacing: -0.02em;
+      line-height: 1.7em;
+    }
   }
 
 

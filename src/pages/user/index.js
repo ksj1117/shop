@@ -11,7 +11,6 @@ const User = (props) => {
         <Layout>
             <Switch>
                 <Route exact path={`${match.url}/login`} render={(props) => <Login {...props}/> }/>
-
             </Switch>
         </Layout>
     )
