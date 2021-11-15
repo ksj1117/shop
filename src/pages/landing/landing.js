@@ -7,7 +7,7 @@ const Landing = () => {
 
     return(
         <div className={"p__landing"}>
-                메인
+                메인 페이지
         </div>
     );
 };
