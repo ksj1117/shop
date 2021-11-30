@@ -22,11 +22,13 @@ $innerWidth : calc( 100% - 40px);
       image: url("../../../../assets/img/banner.jpg");
       size: cover;
       repeat: no-repeat;
-      position: center;
+      position: 50%;
     };
   }
 
   .middle-section {
+    padding: 29px 20px 30px;
+
     .shop-title {
       text-align: center;
       color: #222;
@@ -43,6 +45,11 @@ $innerWidth : calc( 100% - 40px);
       letter-spacing: -0.02em;
       line-height: 1.7em;
     }
+  }
+
+  .bottom-section {
+    margin-bottom: 100px;
+    height: 50px;
   }
 
 

@@ -4,7 +4,7 @@ const Login = () => {
     return(
         <>
             로그인 페이지
-            dqlsj
+            로그인
         </>
     );
 };

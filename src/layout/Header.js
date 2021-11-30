@@ -17,14 +17,13 @@ export default function Header () {
         setPageYOffset(window.pageYOffset);
     }
 
-
     return (
         <header className={`l__header ${pageYOffset === 0 ? 'scroll-top': ''}`}>
-            <div className={"l__layout"}>
+            <div className={"l__main"}>
                 <div className={"row"}>
                     <Link to = {"/"}><h1 className={"logo"}/></Link>
                     <ul className={"nav"}>
-                        <li className={"nav-item selected"} onClick={() => history.push("/shop/product")}>Shop</li>
+                        <li className={"nav-item selected"} onClick={() => history.push("/shop/list")}>Shop</li>
                         <li className={"nav-item"}>Info</li>
                         <li className={"nav-item"}>Q&A</li>
                         <li className={"nav-item"}>Login</li>

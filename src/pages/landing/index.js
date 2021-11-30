@@ -1,20 +1,32 @@
 import React from "react";
-import {Route, Switch} from "react-router-dom";
-import Landing from "../../pages/landing/landing";
+import {useHistory} from "react-router-dom"
+import "../../assets/scss/pages/landing/landing.scss";
 import Layout from "../../layout/Layout";
 
 
-const Question = (props) => {
+const Landing = () => {
 
-    const {match} = props;
-
-    return (
+    return(
         <Layout>
-            <Switch>
-                <Route exact path={`${match.url}`} render={(props) => <Landing {...props}/> }/>
-            </Switch>
+            <div className={"p__landing main"}>
+                <div className={"top-section"}>
+
+                </div>
+                <div className={"middle-section"}>
+                    <p className={"shop-title"}>Aubiér</p>
+                    <p className={"shop-desc"}>오비에는 누구나 편안하게 즐길 수 있는 웨어러블 룩을 지향합니다.<br/>
+                        자연스러움, 클래식한 실루엣 그리고 심플한 디자인의<br/>
+                        다양한 아이템을 소개합니다.</p>
+                </div>
+                <div className={"middle-section"}>
+                    <p className={"shop-title"}>Aubiér</p>
+                    <p className={"shop-desc"}>오비에는 누구나 편안하게 즐길 수 있는 웨어러블 룩을 지향합니다.<br/>
+                        자연스러움, 클래식한 실루엣 그리고 심플한 디자인의<br/>
+                        다양한 아이템을 소개합니다.</p>
+                </div>
+            </div>
         </Layout>
     )
 };
 
-export default Question;
+export default Landing;

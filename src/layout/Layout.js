@@ -4,14 +4,16 @@ import Footer from "./Footer";
 import '../../src/assets/scss/layout/layout.scss';
 
 
-export default function Layout({children}) {
+const Layout = ({children}) => {
     return (
         <>
             <Header />
-            <div className={"l__container"}>
-                <main className={"l__main"}>{children}</main>
-            </div>
+                <div style={{flex: 1}}>
+                    {children}
+                </div>
             <Footer />
         </>
     )
-}
+};
+
+export default Layout;
