@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+//상품 리스트
+
+.p__product-list{
+  padding-top: 200px;
+
+  .product-nav{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    &-list {
+      color: #222222;
+      margin: 0 19px;
+    }
+  }
+
+
+}

@@ -16,7 +16,7 @@ const Shop = (props) => {
                 <Redirect to={`${match.url}/list`}/>
             </Switch>
         </Layout>
-)
+    )
 };
 
 export default Shop;

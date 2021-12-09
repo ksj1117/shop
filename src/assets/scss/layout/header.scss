@@ -24,7 +24,7 @@
     }
 
     .nav-item {
-      color: #fff;
+      color: #ffffff;
       transition: .3s;
     }
   }
@@ -62,7 +62,6 @@
     width: 100%;
     height: 60px;
     position: absolute;
-    //top: 0;
     left: 50%;
     display: flex;
     align-content: center;
@@ -75,10 +74,11 @@
       align-content: center;
       margin: 0 20px;
       border-bottom: 2px solid transparent;
-      font-size: 16px;
-      font-weight: 600;
-      letter-spacing: -.075em;
-      color: #333;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.14px;
+      line-height: 14px;
+      color: #222;
       transition: .3s;
 
       &:hover{
@@ -86,12 +86,10 @@
         cursor: pointer;
       }
       &.selected {
-
+        opacity: 0.8;
       }
     }
   }
-
-
 }
 
 

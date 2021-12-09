@@ -21,7 +21,7 @@ export default function Header () {
         <header className={`l__header ${pageYOffset === 0 ? 'scroll-top': ''}`}>
             <div className={"l__main"}>
                 <div className={"row"}>
-                    <Link to = {"/"}><h1 className={"logo"}/></Link>
+                    <Link to = {"/main"}><h1 className={"logo"}/></Link>
                     <ul className={"nav"}>
                         <li className={"nav-item selected"} onClick={() => history.push("/shop/list")}>Shop</li>
                         <li className={"nav-item"}>Info</li>
