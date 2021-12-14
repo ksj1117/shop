@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.p__return {
+  margin-top: 200px;
+  width: 1200px;
+  height: 100%;
+  padding: 20px;
+
+  .c__table {
+    .th , .td {
+      &.no{
+        width: 3.13%;
+        min-width: 50px;
+      }
+
+      &.subject {
+        flex: 1 1;
+        width: 70.92%;
+        min-width: 700px;
+        color: #666666;
+        transition: .3s ease-in-out;
+
+        &:hover{
+          cursor: pointer;
+          color: #222222
+        }
+      }
+
+      &.writer {
+        width: 8.65%;
+        min-width: 100px;
+      }
+
+      &.count {
+        width: 8.65px;
+        min-width: 100px;
+      }
+
+      &.date {
+        width: 8.65px;
+        min-width: 100px;
+      }
+    }
+  }
+}

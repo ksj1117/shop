@@ -10,7 +10,6 @@ $innerWidth : calc( 100% - 40px);
   width: 100%;
   overflow-x: hidden;
 
-  //top-section
   .top-section {
     width: 100%;
     height: 1080px;
@@ -49,11 +48,34 @@ $innerWidth : calc( 100% - 40px);
 
   .bottom-section {
     margin-bottom: 100px;
-    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
 
+  .title {
+    color: #222222;
+    font-family: Times New Roman, serif;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1.5em;
+  }
 
+  .content{
+    color: #424242;
+    font-family: Noto Sans KR, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.7em;
+    font-size: 13px;
+  }
 
+  .left-wrap {
+    padding: 16px;
+  }
 
+  .right-wrap {
+    padding: 16px;
+  }
 }
 

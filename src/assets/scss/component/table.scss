@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.c__table{
+  width: 100%;
+  border: 1px solid #e8ebf1;
+
+  //.tbody .tr {
+  //  //헤더 푸터 제외 홀수 배경색   
+  //  &:nth-of-type(2n-1){
+  //    background:#f4f4f4;
+  //  }
+  //}
+
+  .tr {
+    height: 40px;
+    display: flex;
+    align-content: center;
+
+    &:not(:last-of-type){
+      border-bottom: 1px solid #e8ebf1;
+    }
+  }
+
+  .th{
+    justify-content: center;
+    font-size: 12px;
+    line-height: 1.67;
+    color: #666666;
+  }
+
+  .th , .td {
+    display: inline-flex;
+    align-items: center;
+    height: inherit;
+    font-size: 12px;
+    line-height: 1.67;
+    padding: 0 10px;
+
+    &:not(:last-of-type){
+      border-bottom: 1px solid #e8ebf1;
+    }
+
+    &.center{
+      justify-content: center;
+    }
+  }
+}
