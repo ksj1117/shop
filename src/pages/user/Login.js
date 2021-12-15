@@ -12,8 +12,6 @@ const Login = () => {
                             type={"email"}
                             className={"auth-input"}
                             placeholder={"이메일을 입력하시오"}
-                            // value={}
-
                         />
                        <div className={"has-error"}>
                            <div className={"f__feedback"}></div>
@@ -24,8 +22,6 @@ const Login = () => {
                            type={"password"}
                            className={"auth-input"}
                            placeholder={"비밀번호를 입력하시오"}
-                           // value={}
-
                        />
                        <div className={"has-error"}>
                            <div className={"f__feedback"}></div>
